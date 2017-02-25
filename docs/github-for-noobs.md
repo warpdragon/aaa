@@ -74,9 +74,7 @@ Now we should have something rougly like this
 
 ## Keeping your copy of [AngelArenaAllstars][AAA/aaa] uptodate
 To be able to work on our own stuff but still have all the newest changes and to have a nice and organized repository, git features branches.
-Read [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) and [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) to learn more about branches. Both of these are from https://git-scm.com where you can find a lot of information about git.
-If you want to know more about branching read [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model) by [Vincent Driessen](http://nvie.com/about/)
-Tip: to easily visualize git branches and commits use [gitk from the git suite](https://git-scm.com/downloads)
+Read [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 
 ### To keep the `master` Branch uptodate
 Let first look at the different remotes we have
