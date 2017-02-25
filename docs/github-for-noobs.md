@@ -1,7 +1,19 @@
-# GitHub For N00bs
+# GitHub Contibuting Guide
 This is an introduction to GitHub and Git on the example of contributing to AngelArenaAllstars.
 
 We start at blank. No repo - nothing.
+
+
+## Contents
+* [Terminology](#But-first-some-terminology)
+* [Setup](#Setting-things-up)
+* [Forking](#Forking)
+* [Cloning](#Cloning-your-copy-of-angelarenaallstars-uptodate)
+* [GitShell](#)
+* [Workflow](#)
+* [PR](#Creating-a-PR)
+* [Glossary](#)
+
 
 ## But first some terminology
 GitHub and Git are not the same!
@@ -18,27 +30,26 @@ The Repository `aaa` of the Account `AngelArenaAllstars`
 
 ### Now follow the [Installation Process](/docs/install.md) until [`Get The Addon`](docs/install.md#get-the-addon)
 
-Instead of just [cloning](https://www.git-scm.com/docs/git-clone) (copying a repository) we'll create a fork and work from there.
+Instead of just [cloning](#clone) (copying a repository) we'll create a [fork](#fork) and work from there.
 I assume you already have a GitHub.com Account; if not create one [here](https://github.com/join).
 
 ## Setting things up
 ### Forking
 1. Goto [AngelArenaAllstars/aaa][AAA/aaa].
-![Repository Overview](/docs/github-for-noobs/Repository-Overview.png)
+ ![Repository Overview](/docs/github-for-noobs/Repository-Overview.png)
 2. Click ![Fork](/docs/github-for-noobs/Fork.png)
 3. Choose where to fork [AngelArenaAllstars/aaa][AAA/aaa] (usually your own Account).
-![Fork Dialog](/docs/github-for-noobs/Fork-Dialog.png)
+ ![Fork Dialog](/docs/github-for-noobs/Fork-Dialog.png)
 4. Done. If you go to `https://github.com/<YOURUSERNAME>/aaa` you'll see your own fork of [AngelArenaAllstars/aaa][AAA/aaa].
 
 ### Cloning your Fork of [AngelArenaAllstars/aaa][AAA/aaa].
 You can do basic things with the GitHub Client but I don't know how. They ship a nice Shell Integration for PowerShell wich will be really useful later.
 
-Open the GitHub Client you installed earlier in [install.md](/docs/install.md).
-![GitHub Client Overview](/docs/github-for-noobs/GitHub-Client.png)
+ * Open the GitHub Client you installed earlier in [install.md](/docs/install.md).
+ ![GitHub Client Overview](/docs/github-for-noobs/GitHub-Client.png)
 
-First go to settings.
-
-![GitHub Client Settings Button](/docs/github-for-noobs/GitHub-Client-Settings.png)
+ * First go to settings.
+   ![GitHub Client Settings Button](/docs/github-for-noobs/GitHub-Client-Settings.png)
 
 Change the settings how you like it (e.g. Change to Dark mode).
 However I recommend changing the default shell to PowerShell.
@@ -72,11 +83,11 @@ Now we should have something rougly like this
  
 ### Before we continue here finish the [Installation Process](/docs/install.md) after [`Get The Addon`](docs/install.md#get-the-addon)
 
-## Keeping your copy of [AngelArenaAllstars][AAA/aaa] uptodate
+## Keeping your copy of [AngelArenaAllstars][AAA/aaa] up-to-date
 To be able to work on our own stuff but still have all the newest changes and to have a nice and organized repository, git features branches.
-Read [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+Read [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) or don't.
 
-### To keep the `master` Branch uptodate
+### To keep the `master` Branch up-to-date
 Let first look at the different remotes we have
 ```
 > git remote -v
@@ -106,7 +117,7 @@ We also want them on GitHub
 Everything up-to-date
 ```
 
-### Start working
+## Start working aka Workflow
 To do this we want our own branch for this feature hotfix path whatever.
 Always make sure you're in the master Branch
 ```
@@ -130,6 +141,15 @@ To commit your changes you can either use GitHub Desktop or do
  1 file changed, 19 insertions(+)
 ```
 
+or you add all files to the commit
+```
+> git add <YOUR CHANGED FILES>
+```
+and commit all of them together
+```
+> git commit -m "WHAT YOU CHANGED" -m "A OPTIONAL EXTENDED DESCRIPTION"
+```
+
 Now push your changes to GitHub
 ```
 > git push
@@ -143,7 +163,7 @@ To https://github.com/Chronophylos/aaa
    1554bf2..3be214d  github-for-noobs -> github-for-noobs
 ```
 
-### Creating a PR
+## Creating a PR
 To create a PR goto [AngelArenaAllstars/aaa][AAA/aaa] on GitHub
 
 Click ![New Pull Request](/docs/github-for-noobs/New-PR.png)
