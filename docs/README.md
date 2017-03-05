@@ -8,5 +8,6 @@ Artists can write up documentation on creating and baking textures, creating mod
 1. Open an issue at http://github.com/warpdragon/aaa/issues. Tag your issue [Links], [Tables], [Instructionals], [Resource], etc please.
 2.  Create your own development branch (preferred method) and send a pull request to warpdragon/aaa:moar-docs
 3. Do *not* reply to this post with submissions.
+
 ## Questions about Moar-docs?
 Don't open an issue, just ask!
