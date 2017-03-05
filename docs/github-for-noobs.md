@@ -1,7 +1,7 @@
-GitHub Contibuting Guide
+This is an introduction to GitHub and Git on the example of contributing to AngelArenaAllstars.
 
 # Intro
-This is an introduction to GitHub and Git on the example of contributing to AngelArenaAllstars. Nearly all of the implementation (from KV files, localization, scripts, graphics, to models) can be streamlined by using a very basic software tool called a Version Control System (VCS). The one we're using is called Git and the repository (server storage) we are using is called GitHub. Essentially, Git enables the development teams to branch out and work on the exact same files as each other without overwriting each other's work. Also, every person can have multiple development branches of the same files available simultaneously using only a couple very basic commands. This enables one to modify files in a development branch without effecting the others (like if you wanted to test abilties you script but didn't want to have to overwrite and manually back up everytime you change something). Furthermore, Git tracks history, so if you make a mistake, you can just reset to ANY point in the development (even if you delete files). Yes it's going to take some effort to learn.
+Nearly all of the implementation (from KV files, localization, scripts, graphics, to models) can be streamlined by using a very basic software tool called a Version Control System (VCS). The one we're using is called Git and the repository (server storage) we are using is called GitHub. Essentially, Git enables the development teams to branch out and work on the exact same files as each other, without overwriting each other's work. Also, every person can have multiple branches of the same files using only a couple very simple commands. This enables one to modify files in a development branch without effecting other peoples work (like if you wanted to test abilties you script but didn't want to have to overwrite and manually back up everytime you change something). Furthermore, Git tracks history, so if you make a mistake, you can just reset to ANY point in the development (even if you delete files). Yes it's going to take some effort to learn.
 
 # Terminology
 At this point just familiarize yourself with the following terminology:
@@ -16,12 +16,13 @@ At this point just familiarize yourself with the following terminology:
 - Forking - Gives any contributor a server-side repository.
 - Git - Version control system (VCS) for tracking and coordination 
 - GitHub - A collaborative software development environment based on the Git VCS.
-- GitHub Desktop - Software designed for users to manage their GitHub.
+- GitHub Desktop - GUI designed for users to manage their local Git repository.
 - Init - Initializes a new local repository.
 - Local - The local repository.
 - Master - The default development branch. Whenever you create a git repository, a branch named master is created, and becomes the active branch.
-- Origin - Alias for the URL of the remote repository.
-- Powershell - A command-line interface for Git in Windows.
+- Origin - Alias for the URL of the remote repository where (by default) changes will be pulled from.
+- Upstream - Alias for the URL of the remote repository where (by default) changes will be pushed to. I upstream doesn't exist orgigin will be used.
+- PowerShell - A linux inspired command-line from Mirosoft in Windows (Win 7+).
 - Pull Request - Provides interface for discussing proposed changes before integrating them into the official project.
 - Push - Push commits from one repository to another.
 - Remote - The remote repository.
@@ -36,8 +37,8 @@ At this point just familiarize yourself with the following terminology:
 
 ## Setup
 
-First, follow the [Installation Process](/docs/install.md) but stop when you get to the part that says "Get the Addon". Now, instead of just Cloning (copying the angelarenaallstars/aaa repository) you'll create a Fork of it and work from there.
-If you do not already have a GitHub.com Account, create one [here](https://GitHub.com/join).
+First, follow the [Installation Process](/docs/install.md) but stop when you get to the part that says "Get the Addon". Now, instead of just Cloning (copying the AngelArenaAllstars/aaa repository) you'll create a Fork of it and work from there.
+If you do not already have a GitHub Account, create one [here](https://GitHub.com/join).
 
 ## Forking
 Forking creates a simultaneous instance of aaa within your own GitHub repository.
@@ -47,7 +48,7 @@ Forking creates a simultaneous instance of aaa within your own GitHub repository
 - Done! If you go to `GitHub.com/YOURUSERNAME/aaa` you'll see your own fork of [AngelArenaAllstars/aaa].
 
 ## Cloning
-Now just Clone your Fork to your computer We do this using the GitHub client. You can do basic things with the GitHub Client, but you will want to familiarize yourself with the command-line. GitHub Client comes with a built-in version of PowerShell (a command-line interface which enables you to type Git commands). This will be explained later.
+Now just Clone your Fork to your computer. We do this using the GitHub client. You can do basic things with the GitHub Client, but you will want to familiarize yourself with the command-line. GitHub Client comes with a built-in version of PowerShell (a command-line interface which enables you to type Git commands). This will be explained later.
 
 - Open the GitHub Client you installed earlier in [install.md](/docs/install.md).
 - Click settings.
