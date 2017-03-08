@@ -155,8 +155,8 @@ To https://GitHub.com/Chronophylos/aaa
 Для того, чтобы создать PR перейдите в [angelarenaallstars/oaa] на GitHub
 - Нажмите 'New Pull Request'
 - Нажмите `compare across forks`
-- Нажмите `head fork` and choose your Repository
-- Нажмите `compare` and select your Branch
+- Нажмите `head fork` и выберите своё хранилище
+- Нажмите `compare` и выберите свою "ветвь"
 - Теперь заполните данные
 - 'Create pull request' и готово!
 
