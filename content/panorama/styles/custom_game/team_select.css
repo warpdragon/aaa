@@ -17,6 +17,12 @@
     width: fill-parent-flow(1);
 }
 
+.TenVTen #TeamsList
+{
+  height:650px;
+  background-image: url("file://{images}/custom_game/team_select/TeamSelect_Teams_TenVTen.png");
+}
+
 #TeamsList
 {
   height:500px;
@@ -51,6 +57,7 @@
 {
   margin-left: 135px;
 }
+
 #TeamsListGroup
 {
     width: 100%;
@@ -59,12 +66,18 @@
     margin-top: -15px;
 }
 
+.TenVTen #TeamsListGroup
+{
+    vertical-align: top;
+    margin-top: 15px;
+    height: 100%;
+}
+
 #TeamListHeader
 {
     width: 100%;
     flow-children: right;
-	color: #323232;
-//	border: 2px solid red;
+	  color: #323232;
 }
 
 #TeamListHeaderLabel
@@ -74,7 +87,7 @@
 	letter-spacing: 1px;
     color: #FFF;
 	margin-top: 5px;
-	margin-left: 270px;
+	margin-left: 282px;
 
   box-shadow: none;
 }
@@ -98,8 +111,13 @@
 {
 	width: 100%;
   flow-children: right;
+  overflow: clip scroll;
+}
 
-    overflow: clip scroll;
+.TenVTen #TeamsListRoot
+{
+  padding-top: 10px;
+  height: 75%;
 }
 
 #ShuffleTeamAssignmentButton
@@ -110,6 +128,14 @@
     horizontal-align: left;
     flow-children: right;
     visibility: collapse;
+}
+
+.TenVTen #ShuffleTeamAssignmentButton
+{
+  horizontal-align: center;
+  vertical-align: bottom;
+  margin-bottom: 40px;
+  margin-left: 0px;
 }
 
 .player_has_host_privileges #ShuffleTeamAssignmentButton
@@ -501,14 +527,22 @@ background-repeat: no-repeat;
 {
     //background-color: #272b30dd;
 }
+
 .team_2, .team_3
 {
   height:350px;
   width:180px;
   background-color: transparent;
   box-shadow: none;
+}
 
-
+.TenVTen .team_2
+{
+  height:100%;
+}
+.TenVTen .team_3
+{
+  height:100%;
 }
 
 .team_2
@@ -554,9 +588,14 @@ background-repeat: no-repeat;
   horizontal-align: center;
 
   background-color: transparent;
-    width: 100%;
-    padding: 4px;
-    flow-children: down;
+  width: 100%;
+  padding: 4px;
+  flow-children: down;
+}
+
+.TenVTen #TeamGroup
+{
+  height:100%;
 }
 
 #TeamHeader
@@ -564,6 +603,11 @@ background-repeat: no-repeat;
     width: 100%;
     flow-children: right;
     margin-top: 40px;
+}
+
+.TenVTen #TeamHeader
+{
+  height: 35px;
 }
 
 #TeamHeader Label

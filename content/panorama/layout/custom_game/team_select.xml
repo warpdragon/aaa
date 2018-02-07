@@ -19,7 +19,7 @@
     <Panel hittest="false" id="TeamSelectContainer" selectionpos="auto">`
       <!--Empty space to let the loading screen and chat be visible-->
       <Panel id="TeamsSelectEmptySpace">
-        <Panel id="GameLengthPicker">
+        <!-- <Panel id="GameLengthPicker">
           <RadioButton class="GameLengthOption" group="GameLength" id="ShortGame" onactivate="SetPlayerVote('short')">
             <Label class="title" text="#oaa_game_length_short_title" />
             <Label class="description" text="#oaa_game_length_short" />
@@ -32,7 +32,7 @@
             <Label class="title" text="#oaa_game_length_long_title" />
             <Label class="description" text="#oaa_game_length_long" />
           </RadioButton>
-        </Panel>
+        </Panel> -->
       </Panel>
 
 
